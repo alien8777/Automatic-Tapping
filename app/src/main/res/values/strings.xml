@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Automatic Tapping</string>
+    <string name="hour">Hour</string>
+    <string name="min">Min</string>
+    <string name="sec">Sec</string>
+    <string name="ms">Ms</string>
+    <string name="location">Location</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="on_off">On/Off</string>
+</resources>
