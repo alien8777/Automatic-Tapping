@@ -25,7 +25,6 @@ class TouchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_touch)
-        actionBar?.setHomeButtonEnabled(true)
         binding.clParent.setOnTouchListener { _, motionEvent ->
 
             mX = motionEvent.x
