@@ -52,25 +52,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onTouchEvent(event: MotionEvent?): Boolean {
-        mX = event!!.x
-        mY = event.y
-
-        println(" X axis value is $mX")
-        println(" Y axis value is $mY")
-
-
-        val c = Calendar.getInstance()
-
-        mH = c.get(Calendar.HOUR_OF_DAY)
-        mM = c.get(Calendar.MINUTE)
-        mS = c.get(Calendar.SECOND)
-        mSS = c.get(Calendar.MILLISECOND)
-
-        updateData()
-        return super.onTouchEvent(event)
-    }
-
     private fun updateData()
     {
         binding.xCod.setText(mX.toString())
